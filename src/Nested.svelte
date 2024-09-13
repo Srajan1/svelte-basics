@@ -2,5 +2,5 @@
     export let name
 </script>
 
-<h1>{name}</h1>
+<p>{name} is getting set using a prop</p>
  

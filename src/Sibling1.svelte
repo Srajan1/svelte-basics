@@ -4,7 +4,7 @@
     function dispatchMessage(){
         dispatch('siblingMessage', {
             'sender': 'sibling1',
-            'text': 'yooooo'
+            'text': 'Hey, what is up'
         })
     }
 </script>

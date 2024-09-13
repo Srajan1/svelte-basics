@@ -3,10 +3,10 @@
 </script>
 
 {#each numbers as number}
-    <p>{number}</p>
+    <span>{number + ' '}</span>
 {/each}
-
+<br>
 <button on:click={() => {{numbers = [...numbers, numbers.push(numbers.length+1)]} }}>
-    press me
+    Add Number
 </button>
 
