@@ -14,10 +14,10 @@
   function handleMessage(event){
     messageObject = event.detail
   }
-  let count_value
-  count.subscribe((value) => {
-		count_value = value;
-	});
+  // let count_value
+  // count.subscribe((value) => {
+	// 	count_value = value;
+	// });
 </script>
  <Nested name='Srajan'/>
  <br>
@@ -32,5 +32,5 @@
 
  <Binding/>
 <br><br>
-  <p>count is {count_value}</p>
+  <p>count is {$count}</p>
  <ModifyWritable/>
